@@ -1,0 +1,36 @@
+{
+  "name": "gulp-blueprint-watch",
+  "version": "0.0.1",
+  "description": "Gulp helper to setup a watch task.",
+  "main": "lib/gulp-blueprint-watch.js",
+  "scripts": {
+    "test": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover --hook-run-in-context --report lcovonly node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc1404/gulp-blueprint-watch.git"
+  },
+  "keywords": [
+    "gulp",
+    "watch",
+    "task",
+    "batch",
+    "glob"
+  ],
+  "author": "Marc Vornetran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marc1404/gulp-blueprint-watch/issues"
+  },
+  "homepage": "https://github.com/marc1404/gulp-blueprint-watch#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-batch": "^1.0.5"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.2",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
+  }
+}

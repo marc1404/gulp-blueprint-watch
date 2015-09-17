@@ -1,6 +1,6 @@
 {
   "name": "gulp-blueprint-watch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Gulp helper to setup a watch task.",
   "main": "lib/gulp-blueprint-watch.js",
   "scripts": {
@@ -29,6 +29,8 @@
   },
   "devDependencies": {
     "istanbul": "^0.3.20",
-    "mocha": "^2.3.2"
+    "mocha": "^2.3.2",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
   }
 }

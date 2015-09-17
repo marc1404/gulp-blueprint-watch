@@ -32,7 +32,7 @@ watch(); // gulp task registered with default options
 You can pass an options object.
 - ```gulp``` (*object*, default: ```require('gulp')```): Provide a custom gulp instance
 - ```task``` (*string*, default: ```'sass'```): The gulp task name
-- ```dependencies``` (*string|array*, default: ```['clean']```): The gulp task dependencies
+- ```dependencies``` (*string|array*, default: ```'default'```): The gulp task dependencies
 - ```watch``` (*string|array*, default: ```[]```): Files to watch, passed to ```gulp.watch()```
 - ```batch``` (*object*, default: ```{}```): Options passed to [gulp-batch](https://www.npmjs.com/package/gulp-batch)
 - ```log``` (*boolean*, default: ```true```): Whether to log changed files

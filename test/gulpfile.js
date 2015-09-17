@@ -1,3 +1,5 @@
 var watch = require('../lib/gulp-blueprint-watch');
 
-watch();
+watch({
+  watch: 'test.txt'
+});

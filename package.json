@@ -1,7 +1,7 @@
 {
   "name": "gulp-blueprint-watch",
-  "version": "0.0.5",
-  "description": "Gulp helper to setup a watch task.",
+  "version": "0.1.5",
+  "description": "Gulp helper to setup a watch task, including Browsersync.",
   "main": "lib/gulp-blueprint-watch.js",
   "scripts": {
     "test": "node --harmony --harmony_arrow_functions node_modules/istanbul/lib/cli.js cover --hook-run-in-context --report lcovonly node_modules/mocha/bin/_mocha"
@@ -15,7 +15,10 @@
     "watch",
     "task",
     "batch",
-    "glob"
+    "glob",
+    "browser",
+    "sync",
+    "reload"
   ],
   "author": "Marc Vornetran",
   "license": "MIT",
@@ -24,13 +27,14 @@
   },
   "homepage": "https://github.com/marc1404/gulp-blueprint-watch#readme",
   "dependencies": {
+    "browser-sync": "^2.9.11",
     "gulp": "^3.9.0",
     "gulp-batch": "^1.0.5"
   },
   "devDependencies": {
-    "istanbul": "^0.3.20",
-    "mocha": "^2.3.2",
-    "should": "^7.1.0",
-    "sinon": "^1.16.1"
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "should": "^7.1.1",
+    "sinon": "^1.17.2"
   }
 }

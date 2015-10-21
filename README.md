@@ -19,6 +19,7 @@ This package can be used to setup a [Gulp](https://www.npmjs.com/package/gulp) t
 
 Using:
 - [gulp-batch](https://www.npmjs.com/package/gulp-batch)
+- [browser-sync](https://www.npmjs.com/package/browser-sync)
 
 ## Usage
 *gulpfile.js*
@@ -37,6 +38,7 @@ You can pass an options object.
 - ```batch``` (*object*, default: ```{}```): Options passed to [gulp-batch](https://www.npmjs.com/package/gulp-batch)
 - ```log``` (*boolean*, default: ```true```): Whether to log changed files
 - ```start``` (*string|array*, default: ```'default'```): Task(s) to start on changes, passed to ```gulp.start()```
+- ```proxy``` (*string*, default: ```'localhost:8000```): Proxy option for [Browsersync](https://www.npmjs.com/package/browser-sync).
 
 ## Test
 ```
